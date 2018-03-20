@@ -1,5 +1,7 @@
 package com.PTR.IDFA;
 
+import android.app.Activity;
+
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -11,6 +13,20 @@ import java.util.Collections;
 import java.util.List;
 
 public class IDFAPackage implements ReactPackage {
+
+	private Activity mActivity = null;
+
+    public void IDFAPackage(Activity activity) {
+
+      mActivity = activity;
+    }
+
+    @Override
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+
+      return Collections.emptyList();
+    }
+
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
