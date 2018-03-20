@@ -1,9 +1,14 @@
 # react-native-idfa
 
+I have fixed main problem that IDFAPackage is not abstract and does not override abstract method createJSModules() in ReactPackage.
+If you got a problem from original repository. You could use this.
+
+Thank you.
+
 ## How to install
 
 ```
-npm install @ptomasroos/react-native-idfa
+npm install https://github.com/rm3rdmodules/react-native-idfa.git --save
 react-native link
 ```
 
