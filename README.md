@@ -20,7 +20,7 @@ Add AdSupport.framework under "Link Binary With Libraries".
 ## How to use!
 
 ```
-import { IDFA } from '@ptomasroos/react-native-idfa';
+import { IDFA } from '@rm3rdmodules/react-native-idfa';
 
 class Basic extends Component {
   state = {
@@ -49,7 +49,7 @@ class Basic extends Component {
 ## How to run example
 
 ```
-git clone git@github.com:ptomasroos/react-native-idfa.git
+git clone git@github.com:rm3rdmodules/react-native-idfa.git
 cd react-native-idfa/examples/Basic
 npm install
 npm run start
