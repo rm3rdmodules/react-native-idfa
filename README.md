@@ -1,9 +1,10 @@
 # react-native-idfa
 
 I have fixed main problem that IDFAPackage is not abstract and does not override abstract method createJSModules() in ReactPackage.
-If you got a problem from original repository. You could use this.
 
-Thank you.
+If you got a problem from original repository. You can use this.
+
+This module supports both platforms android(gaid) and ios(idfa).
 
 ## How to install
 
